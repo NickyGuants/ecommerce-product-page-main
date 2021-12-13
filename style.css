@@ -1,0 +1,51 @@
+.carousel-container {
+  width: 100%;
+}
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
+.left-arrow {
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  top: 170px;
+  left: 20px;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.right-arrow {
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  top: 170px;
+  right: 20px;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  width: 30px;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.attribution {
+  position: sticky;
+  bottom: 0;
+  background-color: black;
+  color: white;
+}
+.attribution a {
+  text-decoration: none;
+}
