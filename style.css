@@ -1,3 +1,11 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-weight: 400;
+  font-family: "Kumbh Sans", sans-serif;
+}
 .carousel-container {
   width: 100%;
 }
@@ -40,11 +48,99 @@
   text-align: center;
 }
 
-.attribution {
-  position: sticky;
-  bottom: 0;
-  background-color: black;
+.product-info {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  width: 90%;
+  height: fit-content;
+  margin: 0 auto;
+  /* background-color: black; */
+  margin-top: 10px;
+}
+.product-description {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0px 10px 0px;
+}
+.product-description h5 {
+  color: orange;
+}
+.product-description h2 {
+  margin: 15px 0px 10px 0px;
+}
+.product-description p {
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 75%;
+}
+.product-price {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 25px 0px 15px 0px;
+}
+.product-price h5 {
+  text-decoration: line-through;
+  color: hsl(0, 0%, 0%);
+  opacity: 75%;
+}
+.price-offer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+.price-offer h5 {
+  color: orange;
+}
+.offer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(25, 100%, 94%);
+  border-radius: 5px;
+  height: 25px;
+  width: 45px;
+}
+.cart-quantity {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: hsl(223, 64%, 98%);
+  height: 50px;
+  border-radius: 10px;
+  margin: 20px 0px 15px 0px;
+}
+.cart-quantity img {
+  margin: 0 10px 0 10px;
+}
+.add-to-cart {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(26, 100%, 55%);
+  height: 50px;
+  border-radius: 10px;
   color: white;
+  margin: 15px 0px 15px 0px;
+}
+.add-to-cart img {
+  margin-right: 10px;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  color: black;
+  margin-bottom: 0px;
+  margin: 10px;
 }
 .attribution a {
   text-decoration: none;
